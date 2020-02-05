@@ -1,4 +1,4 @@
-# Secur_er_ Contexts
+# Secur<em>er</em> Contexts
 
 Mike West, Feb 2020 (©2020, Google)
 
@@ -146,7 +146,7 @@ shall we?
 An excellent question! I think the requirements we'd start with would be along the lines of asserting
 a `Content-Security-Policy` header (note: not via `<meta>`) that restricts `object-src`, `base-uri`,
 and `script-src` in ways that more or less align with [StrictCSP][]. This would boil down to a policy
-like that tracked by Chromium's [`kCSPWithReasonableRestrictions`][].
+like that tracked by Chromium's [`kCSPWithReasonableRestrictions`][kCSPWithReasonableRestrictions].
 
 [StrictCSP]: https://csp.withgoogle.com/docs/strict-csp.html
 [kCSPWithReasonableRestrictions]: https://chromium.googlesource.com/chromium/src/+/master/docs/security/web-mitigation-metrics.md
