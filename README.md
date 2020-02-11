@@ -5,7 +5,7 @@ Mike West, Feb 2020 (©2020, Google)
 ## A Problem
 
 In 2015, we worked together to define a minimum bar for websites' security. At the time, the
-threats we were most concerned about blunting involved limiting the capabilities of active and
+threats we were most concerned about mitigating required limiting the capabilities of active and
 passive network attackers. To that end, we defined a "[secure context][secure-context]" that
 enforced security at the transport layer by ensuring that a given document and its ancestors were
 securely delivered. We've very successfully parlayed that definition into
