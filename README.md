@@ -4,8 +4,8 @@ Mike West, Feb 2020 (©2020, Google)
 
 ## A Problem
 
-In 2015, we worked together to define a minimum bar for a websites' security. At the time, the
-threats we were most concerned about were wrapped up in the blunting the capabilities of active and
+In 2015, we worked together to define a minimum bar for websites' security. At the time, the
+threats we were most concerned about blunting involved limiting the capabilities of active and
 passive network attackers. To that end, we defined a "[secure context][secure-context]" that
 enforced security at the transport layer by ensuring that a given document and its ancestors were
 securely delivered. We've very successfully parlayed that definition into
@@ -25,9 +25,9 @@ on sites delivered securely.
 
 Today, it seems clear that encryption is no longer our primary focus. While we can't quite declare
 victory, encryption has become something we can simply assume for modern applications, rather than
-something we need to actively advocate. It seems reasonable, then, to step back and revisit our
-conception of what makes a site secure-enough, with an eye toward the next set of things that we'd
-like web developers to begin doing in the service of protecting their users and themselves.
+something for which we must actively advocate. It seems reasonable, then, to step back and revisit 
+our conception of what makes a site secure-enough, with an eye toward the next set of things that 
+we'd like web developers to begin doing in the service of protecting their users and themselves.
 
 ## A Proposal
 
@@ -52,8 +52,8 @@ Concretely, the model ought to include attackers who can:
 [xsleaks]: https://github.com/xsleaks/xsleaks
 
 Mitigations for these threats seem to break down into threeish categories: encrypted transport,
-defenses against unintentional script execution ([CSP][], [Trusted Types][], etc.), and new
-isolation primitives ([COOP][], [COEP][], [CORP][], etc). I'd suggest that we support selective
+new isolation primitives ([COOP][], [COEP][], [CORP][], etc) and defenses against unintentional
+script execution ([CSP][], [Trusted Types][], etc.). I'd suggest that we support selective
 application of these diverse mitigations by adding arguments to the declaration, e.g. 
 **`[SecureContext=(Transport,Isolation,Injection)]`**.
 
