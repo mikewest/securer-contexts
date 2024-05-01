@@ -1,3 +1,13 @@
+> [!NOTE]
+> The ideas in this document have made progressed a bit since it was written:
+>
+> *  I've failed to get any momentum behind renaming `[SecureContext]` into something like
+>    `[SecureTransport]` (or parameterizing it as described here. I think we're stuck with it.
+> *  `[SecureContext=Isolation]` has shipped as the [`[CrossOriginIsolated]` IDL attribute](https://webidl.spec.whatwg.org/#CrossOriginIsolated).
+> *  `[SecureContext=Injection]` has morphed into a nascent proposal for a new [`[InjectionMitigated]` IDL attribute](https://mikewest.github.io/injection-mitigated/). Let's see where that goes.
+>
+> With that progress in mind, I'm archiving this document as of May, 2024. It's done its job.
+
 # Secur<em>er</em> Contexts
 
 Mike West, Feb 2020 (©2020, Google)
